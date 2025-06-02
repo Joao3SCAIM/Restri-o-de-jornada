@@ -6,7 +6,7 @@ Este projeto automatiza a extração de dados de restrições de jornada no port
 
 ## Funcionalidades
 
-- Login automático no portal GPSA com credenciais carregadas via `.env`.
+- Login automático no portal
 - Navegação para a página de apontamento.
 - Configuração e execução de busca personalizada.
 - Processamento paginado da tabela de registros, extraindo informações detalhadas (IMEI, nome, matrícula, CR, data).
