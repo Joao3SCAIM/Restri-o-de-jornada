@@ -1,7 +1,7 @@
-##Automação de Restrição de Jornada
+#Automação de Restrição de Jornada
 Este projeto automatiza a extração de dados de restrições de jornada no portal GPSA utilizando Selenium com Microsoft Edge, registra as informações em uma planilha Excel e executa um script adicional de recadastro automaticamente.
 
-##Funcionalidades
+#Funcionalidades
 Login automático no portal GPSA com credenciais carregadas via .env.
 
 Navegação para a página de apontamento.
