@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+*.env
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Excel files gerados (você pode querer ignorar ou não)
+relatorios/*.xlsx
+
+# Drivers do Selenium (se quiser ignorar)
+edgedriver_win64/
+
+# Arquivos temporários e cache
+*.tmp
+*.temp
+*.bak
+
+# Arquivos do sistema Windows
+Thumbs.db
+Desktop.ini
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pasta do virtualenv
+venv/
+env/
