@@ -1,12 +1,18 @@
-# Automação GPSA com Selenium
+##Automação de Restrição de Jornada
+Este projeto automatiza a extração de dados de restrições de jornada no portal GPSA utilizando Selenium com Microsoft Edge, registra as informações em uma planilha Excel e executa um script adicional de recadastro automaticamente.
 
-Este projeto automatiza o login, busca e processamento de dispositivos no portal GPSA, utilizando Selenium WebDriver com Microsoft Edge. Também extrai e salva dados em uma planilha Excel.
+##Funcionalidades
+Login automático no portal GPSA com credenciais carregadas via .env.
 
-## Funcionalidades
+Navegação para a página de apontamento.
 
-- Realiza login automático no portal GPSA.
-- Busca e processa dispositivos por IMEI.
-- Adiciona CRs nos dispositivos.
-- Navega e processa restrições de jornada.
-- Salva relatórios em arquivos Excel.
-- Executa scripts complementares após finalização.
+Configuração e execução de busca personalizada.
+
+Processamento paginado da tabela de registros, extraindo informações detalhadas (IMEI, nome, matrícula, CR, data).
+
+Registro dos dados extraídos em uma planilha Excel formatada.
+
+Agendamento da execução do processo toda segunda-feira às 7h.
+
+Execução automática do script recadastrar_GPSA.py após o processamento.
+
